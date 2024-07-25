@@ -18,7 +18,7 @@ const footer = () => {
         const {id,href,className} =link
         return(
           <li key={id}>
-          <a href={href} target="_blank" rel='noreferer' className="footer-icon"
+          <a href={href} target="_blank" rel='noreferrer' className="footer-icon"
             ><i className={className}></i
           ></a>
         </li>
