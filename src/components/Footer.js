@@ -6,10 +6,10 @@ const footer = () => {
     <footer className="section footer">
     <ul className="footer-links">
     {pageLinks.map((links)=>{
-      const {id,href,text} = links
+      const {footer_id,footer_href,text} = links
           return(
- <li key={id}>
- <a href={href} className="footer-link"> {text} </a>
+ <li key={footer_id}>
+ <a href={footer_href} className="footer-link"> {text} </a>
 </li>
           );})}
     </ul>
