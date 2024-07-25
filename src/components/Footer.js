@@ -17,8 +17,8 @@ const footer = () => {
       {socialLinks.map((link)=>{
         const {id,href,className} =link
         return(
-          <li>
-          <a href={link} target="_blank" className="footer-icon"
+          <li key={id}>
+          <a href={href} target="_blank" rel='noreferer' className="footer-icon"
             ><i className={className}></i
           ></a>
         </li>
